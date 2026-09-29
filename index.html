@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Weather app</title>
+  </head>
+  <body>
+    <nav>
+      <button class="units-button">Units</button>
+    </nav>
+
+    <header>
+      <h1>How's the sky looking today like?</h1>
+
+      <form class="search-form">
+        <input id="city" type="text" placeholder="Search for location" />
+        <button type="submit">Search</button>
+      </form>
+
+      <div class="city-search"></div>
+    </header>
+
+    <main>
+      <section class="current-forecast">
+        <h2 class="city-forecast"></h2>
+
+        <div class="weather-stats">
+          <span>Feels like</span>
+          <span>Humidity</span>
+          <span>Wind</span>
+          <span>Precipitation</span>
+        </div>
+      </section>
+
+      <section class="daily-forecast">
+        <p>Daily forecast</p>
+      </section>
+
+      <section class="hourly-forecast">
+        <p>Hourly forecast</p>
+      </section>
+    </main>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
