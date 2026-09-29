@@ -9,6 +9,7 @@ The application is still under development. Some features may be incomplete, and
 🔗 Live Demo
 
 🌍 View Weather App — Live Preview
+(https://ondrej108.github.io/weather-app-/)
 
 ⚠️ Please note: This is a development preview, not a finished application. You may encounter incomplete features or unexpected behaviour.
 
